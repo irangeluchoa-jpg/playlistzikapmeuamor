@@ -1,0 +1,54 @@
+══════════════════════════════════════════════════════
+  COMO ADICIONAR AS MÚSICAS — LEIA COM ATENÇÃO
+══════════════════════════════════════════════════════
+
+Coloque os arquivos .mp3 AQUI NESTA PASTA com os
+nomes EXATAMENTE como mostrado abaixo.
+
+  NOME DO ARQUIVO                  MÚSICA
+  ──────────────────────────────── ─────────────────────────────
+  01-ceu-azul.mp3                  Céu Azul (Charlie Brown Jr.)
+  02-beautiful.mp3                 Beautiful (Black Alien)
+  03-como-tudo-deve-ser.mp3        Como Tudo Deve Ser (CBJr)
+  04-pitty.mp3                     P.I.T.T.Y. (NandaTsunami)
+  05-pontos-de-aura.mp3            Pontos de Aura (NandaTsunami)
+  06-pq-vc-nao-me-liga.mp3         Pq Vc Não Me Liga? (NandaTsunami)
+  07-extraordinaria.mp3            Extraordinária (Ebony)
+  08-pensamentos-intrusivos.mp3    Pensamentos Intrusivos (Ebony)
+  09-festa-do-pijama.mp3           Festa do Pijama (Ebony ft. Urias)
+  10-set-ajc2.mp3                  Set AJC2 (Ajuliacosta)
+  11-brutas-amam.mp3               Brutas Amam... (Ajuliacosta)
+  12-novo-testamento.mp3           Novo Testamento (Ajuliacosta)
+
+══════════════════════════════════════════════════════
+  DICAS PARA BAIXAR OS MP3
+══════════════════════════════════════════════════════
+
+  • yt-dlp (linha de comando, melhor opção):
+    yt-dlp -x --audio-format mp3 "URL_DO_YOUTUBE"
+
+  • Cobalt (site, sem instalar nada):
+    https://cobalt.tools
+
+  • Depois de baixar, renomeie o arquivo para o nome
+    exato da tabela acima (letras minúsculas, hifens,
+    sem acentos, sem espaços).
+
+══════════════════════════════════════════════════════
+  ATENÇÃO: LIMITE DO GITHUB PAGES
+══════════════════════════════════════════════════════
+
+  GitHub Pages tem limite de 100MB por arquivo e 1GB
+  no total do repositório.
+
+  Se o mp3 for maior que 100MB:
+    1. Suba o arquivo para o Google Drive
+    2. Compartilhe como "qualquer pessoa com o link"
+    3. Copie o ID do link (parte entre /d/ e /view)
+    4. Abra src/data/tracklist.ts
+    5. Troque o audioUrl da faixa por:
+       "https://drive.google.com/uc?export=download&id=SEU_ID"
+
+══════════════════════════════════════════════════════
+  AS FOTOS JÁ ESTÃO NO LUGAR — não mexa na pasta photos/
+══════════════════════════════════════════════════════
